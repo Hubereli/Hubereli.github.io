@@ -8,4 +8,22 @@
     <script src="{{ "/assets/js/uikit.min.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/uikit-icons.min.js" | relative_url }}"></script>
     <title>{{site.title}}</title>
+
+
+<!--Added for puppy slides-->
+    <style>
+        .slide {
+        position: absolute;
+        top: 50ex;
+        width: 200px;
+        height: 0px;
+        border-style: solid;
+        overflow: hidden;
+        transition: linear height 0.2s;
+        }
+        .slide:hover {
+        height: 100px;
+        }
+    </style>
+
 </head>
